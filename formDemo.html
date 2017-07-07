@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formDemo</title>
+</head>
+<body>
+<form action="action_page.php">
+	<input type="radio" name="sex" value="male" checked>Male<br>
+	<input type="radio" name="sex" value="female">Female<br>
+	<input type="submit" value="Submit">
+	<input list="browsers">
+	<datalist id="browsers">
+		<option value="internet">Internet Explorer</option>
+		<option value="Firefox"></option>
+		<option value="Chrome"></option>
+	</datalist>
+	user password:<br>
+	<input type="password" name="psw">
+	<input type="checkbox" name="vehicle" value="bike">I have a bike.<br>
+	<input type="checkbox" name="vehicel" value="car">I hava a car.<br>
+	<input type="button" onclick="alert('Hello World')" value="Click me">
+	<input type="week" name="wensday">
+	<input type="color" value="#000000">
+	<input type="date">
+	<input type="email">
+	<input type="tel">
+	<input type="number" name="quantity" min="1" max="5" step="2" value="2">
+	<input type="text" name="fistname" value="Lee" size="40" maxlength="10">
+</form>
+<select>
+	<option value="oppo" >oppo</option>
+	<option value="oneplus" selected="selected">oneplus</option>
+	<option value="apple">apple</option>
+</select>
+<textarea name="test" rows="10" cols="40">
+	我的世界
+</textarea>
+<button type="button" onclick="alert('Hello World')" >Click me</button>
+</body>
+</html>
